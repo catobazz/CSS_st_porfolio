@@ -16,5 +16,8 @@ export const Menu = () => {
 };
 
 const StyledMenu = styled.nav`
-display: flex;
+    ul {
+      display: flex;
+      gap: 30px;
+    }
 `
